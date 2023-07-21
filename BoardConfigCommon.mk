@@ -5,9 +5,9 @@
 #
 
 # Inherit from the proprietary version
-include vendor/xiaomi/sm8450-common/BoardConfigVendor.mk
+include vendor/xiaomi/sm8550-common/BoardConfigVendor.mk
 
-COMMON_PATH := device/xiaomi/sm8450-common
+COMMON_PATH := device/xiaomi/sm8550-common
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true

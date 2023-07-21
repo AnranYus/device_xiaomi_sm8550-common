@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/sm8450-common/sm8450-common-vendor.mk)
+$(call inherit-product, vendor/xiaomi/sm8550-common/sm8550-common-vendor.mk)
 
 # Platform
 TARGET_BOARD_PLATFORM := taro
@@ -133,8 +133,8 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl-qti \
     android.hardware.boot@1.2-impl-qti.recovery \
     android.hardware.boot@1.2-service \
-    bootctrl.xiaomi_sm8450 \
-    bootctrl.xiaomi_sm8450.recovery
+    bootctrl.xiaomi_sm8550 \
+    bootctrl.xiaomi_sm8550.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
